@@ -78,7 +78,7 @@
 
 Адрес машины с nmap 192.168.0.210 на интерфейсе enp0s8:
 
-<img src = "img/Screenshot_2_7.png" width=100%>
+<img src = "img/Screenshot_2_6.png" width=100%>
 
 Wireshark запускается на прослушивание порта enp0s8:
 
