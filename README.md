@@ -69,3 +69,25 @@
 В режиме UDP сканирование происходит непрерывно и завеершения процесса не наступает, хотя Wireshark показывает постоянное прохождение запросов-ответов через наблюдаемый интерфейс.
 
 <img src = "img/Screenshot_2_4.png" width=100%>
+
+На виртуальной машине Ubuntu установлены Wireshark и nmap.
+
+Исследуемая машина Metasploitable имеет адрес: 192.168.0.222
+
+<img src = "img/Screenshot_2_7.png" width=100%>
+
+Адрес машины с nmap 192.168.0.210 на интерфейсе enp0s8:
+
+<img src = "img/Screenshot_2_7.png" width=100%>
+
+Wireshark запускается на прослушивание порта enp0s8:
+
+<img src = "img/Screenshot_2_5.png" width=100%>
+
+В терминале запускается команда $sudo nmap -sX 192.168.0.222
+
+<img src = "img/Screenshot_2_8.png" width=100%>
+
+В результате Wireshark перехватывает около 2000 пакетоов:
+
+<img src = "img/Screenshot_2_9.png" width=100%>
